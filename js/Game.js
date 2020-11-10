@@ -3,7 +3,7 @@ class Game{
 //read gameState from database
     getState(){
         var gameStateRef = database.ref('gameState');
-        gameStateRef.on("value",function(data){gameState = data.val();})
+        gameStateRef.on("value",function(data){gameState = data.val()})
     }
 //to update the database
     update(state){
@@ -19,10 +19,4 @@ class Game{
         }
     }
 
-
-
-
-
-
-    jhhhhhhhhh
 }
